@@ -76,10 +76,10 @@ install: build
 	
 
 	# Copy the shared libraries to lib64
-	# cp $(BUILD_DIR)/src/lib/Iex/libIex-3_1.so $(REZ_BUILD_INSTALL_PATH)/lib64/
-	# cp $(BUILD_DIR)/src/lib/IlmThread/libIlmThread-3_1.so $(REZ_BUILD_INSTALL_PATH)/lib64/
-	# cp $(BUILD_DIR)/src/lib/OpenEXR/libOpenEXR-3_1.so $(REZ_BUILD_INSTALL_PATH)/lib64/
-	# cp $(BUILD_DIR)/src/lib/OpenEXRUtil/libOpenEXRUtil-3_0.so $(REZ_BUILD_INSTALL_PATH)/lib64/
+	# cp $(BUILD_DIR)/src/lib/Iex/libIex-* $(REZ_BUILD_INSTALL_PATH)/lib64/
+	# cp $(BUILD_DIR)/src/lib/IlmThread/libIlmThread-* $(REZ_BUILD_INSTALL_PATH)/lib64/
+	# cp $(BUILD_DIR)/src/lib/OpenEXR/libOpenEXR-* $(REZ_BUILD_INSTALL_PATH)/lib64/
+	# cp $(BUILD_DIR)/src/lib/OpenEXRUtil/libOpenEXRUtil-* $(REZ_BUILD_INSTALL_PATH)/lib64/
 
 	# Create symbolic links for compatibility
 	#$(REZ_BUILD_INSTALL_PATH)/lib64/
